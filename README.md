@@ -40,9 +40,11 @@ Granularity: Individual retail transactions
 
 Data Handling & Performance Strategy
 The full dataset conatins millions of records and is too large for routine analysis ona  standard laptop. To address this:
+
     - Only relevant columns were loaded using "usecols"
     - A subset of rows was sampled for analysis
     - Datew parsing was handled during ingestion for accurate time-series aggregation
+
 This approach mirrors real-world Business Analyst workflows, where analysts rarelty work with raw prodution datasets in full.
 
         *** The full 9.14GB dataset is not included in this repositor. A smaller sampled dataset was used for reproducibilty and performance. ***
@@ -63,6 +65,7 @@ Analysis Summary
    
             - Revenue concentration in urban area
             - Counties that may warrant deeper investigation or targeted policy decisions
+   
 3. Time-Series Trends
         Sales were aggregated on a monthly basis to evaluate:
    
@@ -76,6 +79,7 @@ Key Insights
     - Monthyl sales exhibit consistent seasonal patterns
     - Urban counties contribute a disproportionate share of total revenue
     - Revenue concentraiotn suggests potential geographic depndency risk
+    
 These insights reflect how a Business Analyst would summarize findings for leadership or stakeholders
 
 Tool & Technologies
