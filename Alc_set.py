@@ -9,7 +9,7 @@ cols = [
 df = pd.read_csv(
     r"c:\Users\flowe\Desktop\Projects\Iowa Liquor Sales\Iowa_Liquor_Sales_20260102.csv",
     usecols=cols,
-    parse_dates=["Date"]
+    parse_dates=["Date"],
     nrows=500_000
 )
 
@@ -32,8 +32,10 @@ import matplotlib.pyplot as plt
 
 sales_by_county.plot(kind="bar", title="Top 10 Counties by Total Sales")
 plt.ylabel("Total Sales (Dollars)")
+plt.savefig("top_counties_sales.png")
 plt.show()
 
 monthly_sales.plot(title="Monthly Iowa Liquor Sales Trend")
 plt.ylabel("Total Sales (Dollars)")
+plt.savefig("monthly_sales_trend.png")
 plt.show()
