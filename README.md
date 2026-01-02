@@ -19,9 +19,13 @@ For this project, Liquor sales are treated as a proxy for consumer spending beha
 
 Dataset Description:
 Source: Iowa Department of Revenue - https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy/about_data
+
 Dataset: Iowa Liquor Sales
+
 Original Size: 9.14GB
+
 Format: CSV
+
 Granularity: Individual retail transactions
 
     Key Columns Used 
