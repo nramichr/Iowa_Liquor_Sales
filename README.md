@@ -4,6 +4,7 @@ Project Overview:
     This project analyzes reatil liquor sales data from the state of Iowa to identify sales trends, top-performing counties, and revenue concentration patterns. The analysis is designed from a Business Analyst perspective, focusing on clear KPIs, aggregation logic, and acitonable insights rather than advanced modeling.
 
 The Primary goal of this project is to demonstrate:
+
     - Practical Python data analysis skills
     - Business-focused thinking and metric defintion
     - Ability to work wiht large, real world data sets efficiently
@@ -11,6 +12,7 @@ The Primary goal of this project is to demonstrate:
 
 Business Context
 State-level sales data can help decision-makers understand:
+
     - Which geographic regions drive the majority of revenue
     - How sale fluctuate over time
     - Where revenue concentration or depenendency risk exists
@@ -47,6 +49,7 @@ This approach mirrors real-world Business Analyst workflows, where analysts rare
 
 Key Business Metrics (KPIs)
     The following KPIs were calculated using Python and pandas:
+    
         - Total Sales Revenue
         - Sales by County (Top 10)
         - Monthly Sales Trends
@@ -57,15 +60,18 @@ Analysis Summary
 
 1. County-Level Performance
         Sales were aggregated by country to identify top-performing regions. This helps highlight:
+   
             - Revenue concentration in urban area
             - Counties that may warrant deeper investigation or targeted policy decisions
-2. Time-Series Trends
+3. Time-Series Trends
         Sales were aggregated on a monthly basis to evaluate:
+   
             - Seasonality
             - Growth or decline patterns
             - Patterns of unsually high or low revenue
 
 Key Insights
+
     - Liquor sale revenue is highly concentrated in a small number of counties
     - Monthyl sales exhibit consistent seasonal patterns
     - Urban counties contribute a disproportionate share of total revenue
@@ -73,6 +79,7 @@ Key Insights
 These insights reflect how a Business Analyst would summarize findings for leadership or stakeholders
 
 Tool & Technologies
+
     - Python
     - pandas - Data cleaning and aggregation
     - matplotlib - Visualization
