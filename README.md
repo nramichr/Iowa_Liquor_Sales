@@ -1,4 +1,4 @@
-Iowa Liquor Sales Analysis (Python)
+Iowa Liquor Sales Analysis (Python) 
 
 Project Overview:
     This project analyzes reatil liquor sales data from the state of Iowa to identify sales trends, top-performing counties, and revenue concentration patterns. The analysis is designed from a Business Analyst perspective, focusing on clear KPIs, aggregation logic, and acitonable insights rather than advanced modeling.
