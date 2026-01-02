@@ -13,6 +13,9 @@ df = pd.read_csv(
     nrows=500_000
 )
 
+# Convert Sale (Dollars) to numeric
+df["Sale (Dollars)"] = pd.to_numeric(df["Sale (Dollars)"].str.replace('$', ''), errors='coerce')
+
 total_sales = df["Sale (Dollars)"].sum()
 
 sales_by_county = (
